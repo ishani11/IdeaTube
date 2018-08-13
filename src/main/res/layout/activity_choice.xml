@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choice">
+
+    <Button
+        android:id="@+id/btnSd"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/amaticbold"
+        android:onClick="onClick"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="SD"
+        android:textColor="#5024FF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <Button
+        android:id="@+id/btnAll"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/amaticbold"
+        android:onClick="onAll"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="All"
+        android:textColor="#5024FF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSd"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <Button
+        android:id="@+id/btnSales"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/amaticbold"
+        android:onClick="onClickSales"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sales"
+        android:textColor="#5024FF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSd"
+        app:layout_constraintVertical_bias="0.057" />
+</android.support.constraint.ConstraintLayout>
